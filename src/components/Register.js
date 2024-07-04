@@ -1,0 +1,18 @@
+import React from 'react';
+function Register() {
+  return (
+    <div className="s_wrapper">
+      <h1 className="h1">Signup</h1>
+      <input type="text" className="fnmae" placeholder="fullname" required >
+      </input>
+      <br />
+      <br />
+      <input type="password" className="paw" placeholder="password" required /><br/><br/>
+      <input type="password" className="cpaw" placeholder="confirm password" required />
+      <h6>or</h6>
+      <button className="fb">Signup with Google</button><br/>
+      <button className="fb">Signup with </button>
+    </div>
+  );
+}
+export default Register;
